@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Date Night Idea Generator</title>
+      <link rel="stylesheet" href="css/simple.min.css">
+      <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="">Date Night Idea Generator</a> 
+                <small>(<span id="count">0</span> ideas)</small>
+              </li>
+              <li class="select">
+                <select name="menu" id="select">
+                  <option value="All">All</option>
+                  <option value="Costly">Costly</option>
+              <option value="Cost-less">Cost-less</option>
+              <option value="Stay In">Stay In</option>
+              <option value="Go Out">Go Out</option>
+                </select>
+                <span class="focus"></span>
+              </li>
+              <li>
+                <button onclick="displayQuote()">&plus;</button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main id="main">
+        <!-- component goes here -->   
+        </main>
+        <!-- <div class="controls">
+          <button onclick="addQuote()">+</button>
+          <button onclick="removeQuote()">&ndash;</button>
+        </div> -->
+        <footer>
+          <p>&copy;Autumn Walker 2023</p>
+        </footer>
+        <!-- loads page scripts -->
+        <script src="js/data.js"></script>
+        <script src="js/logic.js"></script>
+    </body>
+</html>
